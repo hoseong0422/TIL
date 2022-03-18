@@ -1,4 +1,3 @@
-# 2일차 정리
 # GIt & Github 2일차 정리
 
 ## git init -> local repository  생성
@@ -39,7 +38,7 @@ git clone [Github repository URL] [복제할 이름]
 
 - clone된 repository라면 remote 연결 해주지 않아도 된다. init도 불필요
 
-<img src="C:\Users\AMD3600\AppData\Roaming\Typora\typora-user-images\image-20220318104808758.png" alt="image-20220318104808758" style="zoom:150%;" />
+<img src="https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318104808758.png?raw=true" style="zoom:120%;" />
 
 
 
@@ -56,7 +55,7 @@ cd [복제한 이름]
 git pull origin master
 ```
 
-![image-20220318112717567](GIt & Github 2일차 정리.assets/image-20220318112717567.png)
+![image-20220318112717567](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318112717567.png?raw=true)
 
 
 
@@ -115,7 +114,7 @@ git branch -D [branch 이름]
 
 
 
-![image-20220318133156230](GIt & Github 2일차 정리.assets/image-20220318133156230.png)
+![image-20220318133156230](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318133156230.png?raw=true)
 
 - branch ID :  `git log`에서 보이는 노란 글자들
 
@@ -136,13 +135,13 @@ git switch -c [branch 이름] [commit ID]
 
 
 
-<img src="GIt & Github 2일차 정리.assets/image-20220318141637478.png" alt="image-20220318141637478" style="zoom:130%;" />
+<img src="https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318141637478.png?raw=true" alt="image-20220318141637478" style="zoom:130%;" />
 
 -> 브랜치 생성 후 이동한 모습
 
 
 
-<img src="GIt & Github 2일차 정리.assets/image-20220318143731252.png" alt="image-20220318143731252" style="zoom:120%;" />
+<img src="https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318143731252.png?raw=true" alt="image-20220318143731252" style="zoom:120%;" />
 
 
 
@@ -169,7 +168,7 @@ git merge [합칠 브랜치 이름] # -> master에 병합할거라 합칠 브랜
 
 
 
-![image-20220318145708441](GIt & Github 2일차 정리.assets/image-20220318145708441.png)
+![image-20220318145708441](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318145708441.png?raw=true)
 
 - 놀이기구만 있던 master에 어린이 놀이기구가 추가되었다.
 
@@ -182,7 +181,7 @@ git branch -d kids
 
 
 
-![image-20220318150028421](GIt & Github 2일차 정리.assets/image-20220318150028421.png)
+![image-20220318150028421](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318150028421.png?raw=true)
 
 
 
@@ -190,11 +189,11 @@ git branch -d kids
 
 > 같은 라인에 데이터가 있는 상태에서 브랜치를 머지하는 경우
 
-![image-20220318151603823](GIt & Github 2일차 정리.assets/image-20220318151603823.png)
+![image-20220318151603823](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318151603823.png?raw=true)
 
 - CONFLICT 발생 -> 어떻게 merge할지 선택 후 저장 ->  **git add** -> **git commit** 진행
 
-![image-20220318151955707](GIt & Github 2일차 정리.assets/image-20220318151955707.png)
+![image-20220318151955707](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318151955707.png?raw=true)
 
 
 
@@ -203,7 +202,7 @@ git branch -d kids
 - Fork 버튼을 눌러 내 Github 상에 레포지토리에 복제 후 로컬로 clone 작업을 실시
 - clone 후 master가 아닌 추가 branch 생성 후 작업 실시
 
-![image-20220318170946996](GIt & Github 2일차 정리.assets/image-20220318170946996.png)
+![image-20220318170946996](https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318170946996.png?raw=true)
 
 ```bash
 # pull request가 완료된 상태에서 pull 하기 위한 설정
@@ -212,7 +211,7 @@ git remote add upstream [원본 URL]
 
 - 브랜치에서 작업 완료 후 `git add`, `git commit`실시
 
-<img src="GIt & Github 2일차 정리.assets/image-20220318171729602.png" alt="image-20220318171729602" style="zoom:120%;" />
+<img src="https://github.com/hoseong0422/TIL/blob/master/images/GIt_Day02/image-20220318171729602.png?raw=true" style="zoom:120%;" />
 
 > 브랜치 이름으로 다시 업로드 실시하면 이렇게 나온다.
 
