@@ -39,3 +39,29 @@
         - `USER_LIMIT`
     - 패키지는 모두 소문자를 사용
         - `org.spring.boot`
+
+## 문제 풀이
+### [변수 문제](./variable/ex/)
+1. 다음 코드에 반복해서 나오는 숫자 `4` ,`3` 을 다른 숫자로 한번에 변경할 수 있도록 다음을 변수 `num1` , `num2` 를 사용하
+도록 변경해보세요.
+- 문제 1
+    ```java
+    package variable.ex;
+    public class VarEx1Question {
+        public static void main(String[] args) {
+            System.out.println(4 + 3);
+            System.out.println(4 - 3);
+            System.out.println(4 * 3);
+    } }
+    ```
+    - [정답](./variable/ex/VarEx1Answer.java)
+- 문제 2
+    1. 변수 `num1`을 선언하고, 이에 10을 할당하세요.
+    2. 변수 `num2`을 선언하고, 이에 20을 할당하세요.
+    3. 두 변수의 합을 구하고, 그 결과를 새로운 변수 `sum`에 저장하세요.
+    4. `sum` 변수의 값을 출력하세요.
+    - [정답](./variable/ex/VarEx2Answer.java)
+- 문제 3
+    - `long` 타입의 변수를 선언하고 그 변수를 10000000000(백억)으로 초기화한 후 출력하는 프로그램을 작성하세요.
+    - `boolean` 타입의 변수를 선언하고, 그 변수를 `true`로 초기화한 후 출력하는 프로그램을 작성하세요.
+    - [정답](./variable/ex/VarEx3Answer.java)
