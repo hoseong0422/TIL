@@ -56,3 +56,16 @@ if (condition2) {
     // 작업 2 수행
 }
 ```
+
+## if문 {} 중괄호 생략 가능
+```java
+if (true)
+    System.out.println("if 문에서 실행됨");
+```
+- 이것도 두줄도 되는것처럼 보이지만 실제로 아래쪽 라인은 if문 바깥에서 실행됨
+    ``` java
+    if (true)
+        System.out.println("if 문에서 실행됨");
+        System.out.println("if 문 바깥에서 실행됨"); // if문 바깥에서 실행되는 코드
+    ```
+- 가독성, 유지보수성 때문에 권장하지 않는다
