@@ -69,3 +69,32 @@ if (true)
         System.out.println("if 문 바깥에서 실행됨"); // if문 바깥에서 실행되는 코드
     ```
 - 가독성, 유지보수성 때문에 권장하지 않는다
+
+## switch문
+- if 문을 조금 더 편리하게 사용할 수 있는 기능, 참고로 `if`문은 비교 연산자를 사용할 수 있지만, `switch`문은 단순히 값이 같은지만 비교
+```java
+switch (condition) {
+    case value1:
+        // condition의 결과 값이 value1일 때 실행되는 코드
+        break;
+    case value2:
+        // condition의 결과 값이 value2일 때 실행되는 코드
+        break;
+    default;
+        // condition의 결과 값이 위의 어떤 값에도 해당하지 않을 때 실행되는 코드
+}
+```
+### if문 vs switch문
+- `switch`문은 값이 같은지만 확인
+- `if`문은 조건식을 자유롭게 사용 가능
+
+## java 14이상에서 사용 가능한 Switch
+- `->`를 사용
+```java
+int coupon = switch (grade) {
+    case 1 -> 1000;
+    case 2 -> 2000;
+    case 3 -> 3000;
+    default -> 500;
+};
+```
