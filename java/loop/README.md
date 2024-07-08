@@ -17,3 +17,26 @@ do {
     // 코드
 } while (조건식);
 ```
+
+## break, continue
+- 반복문에서 사용하는 키워드
+- break : 즉시 종료
+- continue 반복문의 나머지 부분을 건너뛰고 다음 반복 진행
+
+### break
+```java
+while (조건식) {
+    코드 1;
+    break; // 코드2가 실행되지 않고 즉시 while문 종료
+    코드 2;
+}
+```
+
+### continue
+```java
+while(조건식) {
+    코드 1;
+    continue; // 즉시 조건식으로 이동하여 조건이 참일경우 while문 다시 실행
+    코드 2;
+}
+```
